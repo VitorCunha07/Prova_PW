@@ -1,0 +1,55 @@
+*{
+    margin: 500;
+    padding: 600;
+}
+header{
+    display: none;
+}
+
+#form{
+    background-color: rgb(190, 187, 187);
+    align-items: center;
+}
+section{
+   
+    font-size: 17px;
+    height: -47px;
+    margin: 23px;
+    text-align: center;
+
+}
+.desc1{
+    align-items: center;
+    margin: 17px;
+    font-size: 14px;
+}
+.video{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sobre{
+    align-items: center;
+    margin: 3px;
+    font-size: 11px;
+}
+
+/* AQUI É PARA PC */
+@media (min-width: 768px){
+    main{
+        background: #f5f556;
+    }
+    header{
+        display: none;
+    }
+    #header-pc{
+        width: 100%;
+        height: 250px;
+        
+        display: block;
+    }
+
+}
